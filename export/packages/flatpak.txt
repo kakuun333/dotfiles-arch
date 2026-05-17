@@ -1,0 +1,3 @@
+com.jetbrains.CLion
+com.usebottles.bottles
+org.vinegarhq.Sober

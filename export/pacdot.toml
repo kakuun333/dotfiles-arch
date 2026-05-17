@@ -1,0 +1,88 @@
+[dotfiles.nvim]
+paths = [
+    "~/.config/nvim",
+]
+
+[dotfiles.matugen]
+paths = [
+    "~/.config/matugen",
+]
+exclude = [
+    "~/.config/matugen/*.bak.*",
+]
+
+[dotfiles.DankMaterialShell]
+paths = [
+    "~/.config/DankMaterialShell",
+    # "~/.local/state/DankMaterialShell"
+]
+exclude = [
+    "~/.local/state/DankMaterialShell/notepad-files"
+    "~/.local/state/DankMaterialShell/appusage.json"
+    "~/.local/state/DankMaterialShell/notepad-session.json"
+]
+
+[dotfiles.niri]
+backup_empty_files = true
+backup_empty_dirs = true
+paths = [
+    "~/.config/niri",
+]
+exclude = [
+    "~/.config/niri/*.kdl.backup*",
+    "~/.config/niri/*.kdl.dmsbackup*",
+]
+
+[dotfiles.fastfetch]
+paths = [
+    "~/.config/fastfetch",
+]
+
+[dotfiles.fcitx5]
+paths = [
+    "~/.config/fcitx5",
+]
+exclude = [
+    "~/.config/fcitx5/conf/cached_layouts",
+]
+
+[dotfiles.alacritty]
+paths = [
+    "~/.config/alacritty",
+]
+
+[dotfiles.starship]
+paths = [
+    "~/.config/starship.toml",
+]
+
+[dotfiles.system]
+paths = [
+    "~/.config/locale.conf",
+    "/etc/modprobe.d/nvidia.conf",
+    "/etc/hostname",
+    "/etc/mkinitcpio.conf",
+    "/etc/pacman.conf",
+    "/etc/paru.conf",
+]
+
+[files.wallpapers]
+paths = [
+    "~/Pictures/Wallpapers",
+]
+
+[commands]
+restore = [
+    ["dms", "greeter", "enable"],
+    ["dms", "greeter", "sync"],
+]
+
+[systemd]
+backup_enabled_units = true
+backup_user_enabled_units = true
+
+[packages]
+backup = true
+exclude_pacman = []
+exclude_aur = []
+exclude_flatpak = []

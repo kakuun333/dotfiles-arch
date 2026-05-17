@@ -1,0 +1,97 @@
+{
+  "liveChartSchedule": {
+    "enabled": true,
+    "browser": "firefox",
+    "timeFormat": "24h",
+    "livechartIconClickAction": "schedule",
+    "dankbarPill": "today_count",
+    "showSeconds": false
+  },
+  "calculator": {
+    "enabled": true,
+    "trigger": "",
+    "noTrigger": false,
+    "persistHistoryOnFile": false
+  },
+  "wallpaperCarousel": {
+    "enabled": true,
+    "overlayOpacity": 80,
+    "selectedScale": 108
+  },
+  "qrGenerator": {
+    "enabled": false
+  },
+  "screenCaptureToolbar": {
+    "enabled": true
+  },
+  "fullscreenPowerMenu": {
+    "enabled": true,
+    "menuOpacity": 20,
+    "animationSpeed": 100,
+    "menuOrientation": "dynamic",
+    "primaryTintEnabled": false
+  },
+  "gameControllerBattery": {
+    "enabled": true
+  },
+  "dankDiskUsage": {
+    "enabled": true,
+    "showNixStore": false
+  },
+  "dankPomodoroTimer": {
+    "enabled": true
+  },
+  "dankTodo": {
+    "enabled": true
+  },
+  "pkgUpdate": {
+    "enabled": true
+  },
+  "musicLyrics": {
+    "enabled": true,
+    "musixmatchToken": "260513c9eea9ccc2356ccf42de9563926f3b0b2c0a0c783513737f"
+  },
+  "dankBatteryAlerts": {
+    "enabled": true,
+    "warningThreshold": 35,
+    "warningTitle": "低電量",
+    "warningMessage": "電量 ${level}% - 請考慮充電",
+    "criticalMessage": "電量 ${level}% - 請儘速充電！",
+    "criticalTitle": "極低電量"
+  },
+  "codexBar": {
+    "enabled": false
+  },
+  "volumeMixer": {
+    "enabled": true
+  },
+  "usbManager": {
+    "enabled": true
+  },
+  "dankCleaner": {
+    "enabled": true,
+    "cleanupCache": true,
+    "diskAnalyzerPaths": "~/Downloads\n,~/Documents\n,~/Videos,\n~/Pictures,~/.local/share",
+    "cleanupTmp": true,
+    "dockerSystemPruneAll": false
+  },
+  "dankDesktopWeather": {
+    "enabled": true
+  },
+  "keybindingCheatSheet": {
+    "enabled": true
+  },
+  "mediaPlayer": {
+    "enabled": true
+  },
+  "hueManager": {
+    "enabled": true
+  },
+  "dmsScreenshot": {
+    "enabled": true,
+    "stdout": false,
+    "mode": "full",
+    "saveToDisk": false,
+    "showPointer": false
+  }
+}

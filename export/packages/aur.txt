@@ -1,0 +1,9 @@
+blesh-git
+github-desktop-bin
+greetd-dms-greeter-git
+pacdot-bin
+paru
+powershell-bin
+protonup-qt
+python-browser-cookie3
+the-honkers-railway-launcher-bin

@@ -1,0 +1,107 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+format = "[█](surface0)$os$username$status[](bg:blue fg:surface0)$directory[](fg:blue bg:green)$git_branch$git_status[](fg:green)$line_break$character"
+# right_format = "[](fg:surface0)$kubernetes[](bg:surface0 fg:text)$time"
+
+palette = 'monokai'
+
+[palettes.monokai]
+rosewater = "#f8f8f2"
+flamingo = "#f92672"
+pink = "#f92672"
+mauve = "#ae81ff"
+red = "#f92672"
+maroon = "#fd5ff0"
+peach = "#fd971f"
+yellow = "#e6db74"
+green = "#a6e22e"
+teal = "#a1efe4"
+sky = "#66d9ef"
+sapphire = "#66d9ef"
+blue = "#66d9ef"
+lavender = "#ae81ff"
+text = "#f8f8f2"
+subtext1 = "#e6db74"
+subtext0 = "#cfcfc2"
+overlay2 = "#a59f85"
+overlay1 = "#75715e"
+overlay0 = "#5b5a4a"
+surface2 = "#49483e"
+surface1 = "#3e3d32"
+surface0 = "#272822"
+base = "#1e1f1c"
+mantle = "#191a16"
+crust = "#11120f"
+
+[os]
+disabled = false
+style = "bg:surface0 fg:text"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = ""
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+
+[username]
+show_always = true
+style_user = "bg:surface0 fg:text"
+style_root = "bg:surface0 fg:text"
+format = '[ $user ]($style)'
+
+[directory]
+style = "fg:base bg:blue"
+format = "[ $path ]($style)"
+truncation_length = 10
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+[git_branch]
+symbol = ""
+style = "bg:green"
+format = '[[ $symbol $branch ](fg:base bg:green)]($style)'
+
+[git_status]
+style = "bg:green"
+format = '[[($all_status$ahead_behind )](fg:base bg:green)]($style)'
+
+[status]
+disabled = false
+style = 'bg:surface0'
+failure_style = 'bg:surface0 fg:red'
+success_style = 'bg:surface0 fg:green'
+success_symbol = ""
+symbol = ""
+not_executable_symbol = ""
+not_found_symbol = ""
+sigint_symbol = ""
+signal_symbol = ""
+format = '[ $symbol $status ]($style)'
+
+[kubernetes]
+disabled = false
+style = "bg:surface0 fg:text"
+format = '[ $symbol$context( \($namespace\) )]($style)'
+
+[time]
+disabled = false
+time_format = "%Y-%m-%d %H:%M:%S"
+style = "bg:blue"
+format = '[[  $time ](fg:text bg:surface0)]($style)'

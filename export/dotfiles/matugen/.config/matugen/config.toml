@@ -1,0 +1,15 @@
+[config]
+
+[templates.niri]
+input_path = '/home/kaku/.config/matugen/templates/niri-colors.kdl'
+output_path = '/home/kaku/.config/niri/dms-colors.kdl'
+
+# BEGIN fastfetch-dms-matugen
+
+[templates.fastfetch]
+input_path = '/home/kaku/.config/matugen/templates/fastfetch-dms-template.jsonc'
+output_path = '/home/kaku/.config/fastfetch/config.jsonc'
+
+[templates.fastfetch_logo]
+input_path = '/home/kaku/.config/matugen/templates/fastfetch-dms-logo.sh'
+output_path = '/home/kaku/.config/fastfetch/ascii-logo-dms.sh'
