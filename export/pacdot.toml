@@ -17,9 +17,10 @@ paths = [
     # "~/.local/state/DankMaterialShell"
 ]
 exclude = [
-    "~/.local/state/DankMaterialShell/notepad-files"
-    "~/.local/state/DankMaterialShell/appusage.json"
-    "~/.local/state/DankMaterialShell/notepad-session.json"
+    "~/.local/state/DankMaterialShell/notepad-files",
+    "~/.local/state/DankMaterialShell/appusage.json",
+    "~/.local/state/DankMaterialShell/notepad-session.json",
+    "~/.local/state/DankMaterialShell"
 ]
 
 [dotfiles.niri]
@@ -64,6 +65,7 @@ paths = [
     "/etc/mkinitcpio.conf",
     "/etc/pacman.conf",
     "/etc/paru.conf",
+    "/etc/pacman.d/hooks/95-check-boot-mounted.hook"
 ]
 
 [files.wallpapers]
@@ -86,3 +88,4 @@ backup = true
 exclude_pacman = []
 exclude_aur = []
 exclude_flatpak = []
+

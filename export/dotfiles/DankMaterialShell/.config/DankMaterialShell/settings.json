@@ -218,7 +218,7 @@
   "dankLauncherV2UnloadOnClose": false,
   "useAutoLocation": true,
   "weatherEnabled": true,
-  "networkPreference": "wifi",
+  "networkPreference": "ethernet",
   "iconTheme": "System Default",
   "cursorSettings": {
     "theme": "System Default",
@@ -462,15 +462,15 @@
           "enabled": true
         },
         {
+          "id": "vpn",
+          "enabled": true
+        },
+        {
           "id": "controlCenterButton",
           "enabled": true
         },
         {
           "id": "notificationButton",
-          "enabled": true
-        },
-        {
-          "id": "hueManager",
           "enabled": true
         }
       ],

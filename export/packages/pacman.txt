@@ -9,6 +9,7 @@ bluez-utils
 brightnessctl
 cava
 cmake
+cmatrix
 code
 cups-pk-helper
 discord
@@ -30,6 +31,7 @@ github-cli
 godot
 grim
 grub
+htop
 iwd
 jq
 kimageformats
@@ -41,6 +43,7 @@ matugen
 namcap
 neovim
 networkmanager
+networkmanager-openvpn
 niri
 noto-fonts
 noto-fonts-cjk
@@ -48,6 +51,7 @@ noto-fonts-emoji
 npm
 nvidia-open-dkms
 nvidia-utils
+openvpn
 pavucontrol
 pipewire-jack
 pipewire-pulse
@@ -69,6 +73,7 @@ starship
 steam
 sudo
 terminus-font
+timeshift
 ttf-dejavu
 ttf-jetbrains-mono-nerd
 uv

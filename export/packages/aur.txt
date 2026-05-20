@@ -3,6 +3,7 @@ github-desktop-bin
 greetd-dms-greeter-git
 pacdot-bin
 paru
+peaclock
 powershell-bin
 protonup-qt
 python-browser-cookie3

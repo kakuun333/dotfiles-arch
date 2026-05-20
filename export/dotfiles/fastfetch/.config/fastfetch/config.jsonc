@@ -27,10 +27,10 @@
     "hideCursor": false,
     "separator": "  ",
     "color": {
-      "keys": "#feb876",
-      "title": "#feb876",
-      "output": "#efe0d5",
-      "separator": "#c1cc99"
+      "keys": "#a6c8ff",
+      "title": "#a6c8ff",
+      "output": "#e1e2e9",
+      "separator": "#dabde2"
     },
     "brightColor": true,
     "duration": {
@@ -47,9 +47,9 @@
       "unit": "D",
       "ndigits": 1,
       "color": {
-        "green": "#8dfe76",
-        "yellow": "#ffe468",
-        "red": "#ff7168"
+        "green": "#7fff91",
+        "yellow": "#fff872",
+        "red": "#ff729a"
       },
       "spaceBeforeUnit": "default"
     },
@@ -60,9 +60,9 @@
       ],
       "ndigits": 0,
       "color": {
-        "green": "#8dfe76",
-        "yellow": "#ffe468",
-        "red": "#ff7168"
+        "green": "#7fff91",
+        "yellow": "#fff872",
+        "red": "#ff729a"
       },
       "spaceBeforeUnit": "default",
       "width": 0
@@ -79,9 +79,9 @@
         "rightElapsed": ""
       },
       "color": {
-        "elapsed": "#feb876",
-        "total": "#19120c",
-        "border": "#c1cc99"
+        "elapsed": "#a6c8ff",
+        "total": "#111318",
+        "border": "#dabde2"
       },
       "width": 10
     },
@@ -124,7 +124,7 @@
       "type": "custom",
       "key": " ",
       "keyWidth": 0,
-      "format": "{##feb876}╭──────────────────── 系統資訊 ────────────────────╮{#}"
+      "format": "{##a6c8ff}╭──────────────────── 系統資訊 ────────────────────╮{#}"
     },
     {
       "type": "os",
@@ -164,7 +164,7 @@
       "type": "custom",
       "key": " ",
       "keyWidth": 0,
-      "format": "{##feb876}├─────────────────── 顯示與桌面 ───────────────────┤{#}"
+      "format": "{##a6c8ff}├─────────────────── 顯示與桌面 ───────────────────┤{#}"
     },
     {
       "type": "display",
@@ -224,7 +224,7 @@
       "type": "custom",
       "key": " ",
       "keyWidth": 0,
-      "format": "{##feb876}├─────────────────── 硬體與資源 ───────────────────┤{#}"
+      "format": "{##a6c8ff}├─────────────────── 硬體與資源 ───────────────────┤{#}"
     },
     {
       "type": "cpu",
@@ -293,7 +293,7 @@
       "type": "custom",
       "key": " ",
       "keyWidth": 0,
-      "format": "{##feb876}├─────────────────── 網路與電源 ───────────────────┤{#}"
+      "format": "{##a6c8ff}├─────────────────── 網路與電源 ───────────────────┤{#}"
     },
     {
       "type": "localip",
@@ -337,13 +337,13 @@
       "type": "custom",
       "key": " ",
       "keyWidth": 0,
-      "format": "{##feb876}╰──────────────────────────────────────────────────╯{#}"
+      "format": "{##a6c8ff}╰──────────────────────────────────────────────────╯{#}"
     },
     {
       "type": "custom",
       "key": " ",
       "keyWidth": 0,
-      "format": "{##19120c}●{#} {##ff7168}●{#} {##8dfe76}●{#} {##ffe468}●{#} {##f1a156}●{#} {##753a02}●{#} {##feb876}●{#} {##fff6ee}●{#} {##a59e97}●{#} {##ff9e98}●{#} {##afff9f}●{#} {##ffee9f}●{#} {##ffc38a}●{#} {##ffcd9f}●{#} {##ffdfc1}●{#} {##fffbf8}●{#}"
+      "format": "{##111318}●{#} {##ff729a}●{#} {##7fff91}●{#} {##fff872}●{#} {##8cb3f2}●{#} {##2a4776}●{#} {##a6c8ff}●{#} {##eff5ff}●{#} {##999ea5}●{#} {##ff9fba}●{#} {##a5ffb2}●{#} {##fffaa5}●{#} {##b3d0ff}●{#} {##c0d8ff}●{#} {##d6e6ff}●{#} {##f8fbff}●{#}"
     }
   ]
 }
