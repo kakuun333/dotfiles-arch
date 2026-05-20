@@ -184,7 +184,12 @@ return {
 
     vim.api.nvim_create_autocmd("VimEnter", {
       callback = function()
-        require("nvim-tree.api").tree.open()
+        local argc = vim.fn.argc()
+        local first_arg = argc > 0 and vim.fn.argv(0) or ""
+
+        if argc == 0 or vim.fn.isdirectory(first_arg) == 1 then
+          require("nvim-tree.api").tree.open()
+        end
       end,
     })
   end,

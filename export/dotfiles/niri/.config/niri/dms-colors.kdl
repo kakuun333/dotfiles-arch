@@ -1,19 +1,19 @@
 layout {
     focus-ring {
         width 4
-        active-color "#a6c8ff"
-        inactive-color "#43474e"
+        active-color "#c1c1ff"
+        inactive-color "#47464f"
     }
 
     border {
         off
         width 4
-        active-color "#a6c8ff"
-        inactive-color "#43474e"
+        active-color "#c1c1ff"
+        inactive-color "#47464f"
         urgent-color "#ffb4ab"
     }
 }
 
 overview {
-    backdrop-color "#111318CC"
+    backdrop-color "#131318CC"
 }

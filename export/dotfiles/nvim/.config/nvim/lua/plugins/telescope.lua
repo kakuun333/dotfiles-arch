@@ -24,6 +24,13 @@ return {
         end,
         desc = "Telescope live grep",
       },
+      {
+        "<C-o>",
+        function()
+          require("telescope.builtin").lsp_document_symbols()
+        end,
+        desc = "Telescope document symbols",
+      },
     },
     config = function()
       require("telescope").setup()
